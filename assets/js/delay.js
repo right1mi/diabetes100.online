@@ -1,5 +1,5 @@
 const itemDelay = document.querySelectorAll("[data-delay]");
-var temp =19.50;
+var temp = 6;
 var tempConv = temp * 60000;
 
 function hide() {
