@@ -14,18 +14,13 @@ html {
     }
 }
 
-@import './variables';
-
 body {
-    background-image: url(../../img/bg.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
     &::-webkit-scrollbar {
-        width: 0px;
+        display: none;
     }
 }
+
+@import './variables';
 
 #scrollPath {
     position: fixed;
@@ -75,8 +70,4 @@ body {
         background: linear-gradient(to bottom, $color-primary, $color-secondary);
         filter: blur(30px);
     }
-}
-
-[data-delay] {
-    display: none;
 }

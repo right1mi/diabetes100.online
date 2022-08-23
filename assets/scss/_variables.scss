@@ -1,6 +1,6 @@
 //<PALET>
-$color-primary: #bb2ff3;
-$color-secondary: #ffcb00;
+$color-primary: #000000;
+$color-secondary: #f0b300;
 $linear-gradient: linear-gradient(to bottom,lime, #4aff4a);
 //</PALET>
 
@@ -21,7 +21,7 @@ $font-two: 'monument', sans-serif;
 }
 
 .font3 {
-    font-family: $font-two;
+    font-family: $font-three;
 }
 //</FONTS>
 
@@ -38,23 +38,26 @@ $font-two: 'monument', sans-serif;
         }
 
         @media screen and (max-width:540px){
-            width: 80%;
-            max-width: 80%;
+            width: 90%;
+            max-width: 90%;
         }
     }
 
     .button {
         display: block;
-        background: $linear-gradient;
-        width: 22rem;
-        font-size: 1.1rem;
+        background: #ffa200;
+        width: fit-content;
+        font-size: 2rem;
         text-decoration: none;
-        color: #000;
+        color: #fff;
         padding: 0.75rem 1.5rem;
         border-radius: 0.5rem;
         font-weight: 900;
         text-align: center;
         animation: button 3s ease infinite;
+        box-shadow: 0px 0px 6px #ffa200;
+        font-family: $font-one;
+        margin: 2rem auto;
         
         @media screen and (max-width:540px){
             width: 100%;
